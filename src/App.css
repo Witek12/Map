@@ -20,3 +20,54 @@
 .App-link {
   color: #09d3ac;
 }
+
+.Header {
+  background : red;
+  height : 100px;
+  width : 100%;
+
+}
+
+.svg{
+  width: 100%;
+  height: 100%;
+}
+
+.active{
+  stroke: #08A6E4;
+    fill: #08A6E4;
+}
+
+.land{
+  transition : all 0.6s linear;
+}
+
+.input{
+position : absolute;
+border-radius : 20px;
+box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.input input{
+  border-radius : 20px;
+}
+
+.input button{
+  background : #08A6E4;
+  border-radius : 20px;
+}
+
+.card{
+  padding: 1rem;
+  border-radius: 20px;
+  border: 1px solid grey;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+  position:absolute;
+  top:0;
+  left: 10%;
+  background: #08A6E4;
+}
+
+ul{
+  list-style-type: none;
+}
